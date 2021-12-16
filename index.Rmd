@@ -1,0 +1,191 @@
+---
+title: "Criptomonedas, Analisis y Evolucion"
+author: "Alejandro Perez, Mario y Alejandro Caldedero"
+date: "14/12/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# CRIPTOMONEDAS
+
+¿Criptomonedas = Bitcoin?
+
+## Datos utilizados
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/datos.png")
+```
+
+
+## Surgimiento de altcoins
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/Surgimiento de Altcoins.png")
+```
+
+## Correlacion entre precio BTC y surgimiento altcoins
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/Correlacion precio btc altcoins.png")
+```
+
+## Criptomonedas con mas volumen (2013)
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/graf inter vol principio.png")
+```
+
+## Criptomonedas con mas volumen (2021)
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/graf inter vol final.png")
+```
+
+## % Marketcap por Crypto y Evolución precio Bitcoin
+
+```{r echo=FALSE, out.width = "750px", out.height="400px",fig.align='center'}
+knitr::include_graphics("Capturas/pormercado cripto y precio bitcoin.png")
+```
+
+# Criptomonedas en el mundo
+
+## % Poblacion poseedora de criptomonedas
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/criptos_mundo.png")
+```
+
+## Tabla con informacion de criptomonedas
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/tabla informacion criptos.png")
+```
+
+# BITCOIN
+## Evolucion del precio
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/grafico mov prec btc.png")
+```
+
+## Ciclo de Bitcoin
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/CICLOS.png")
+```
+
+## Analisis tecnico Bitcoin Medias moviles
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/media20.png")
+```
+
+## Analisis tecnico Bitcoin RSI(Relative Strengh Index)
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/rsiBTC.png")
+```
+
+## Analisis tecnico Bitcoin MACD
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/MACDBTC.png")
+```
+
+## Analisis tecnico Bitcoin Momentum
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/momentumbtc.png")
+```
+
+##  Precio respecto de la media y su tendencia
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/preciomedia.png")
+```
+
+## Comparación con Alt-Coins
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/Comparacion.PNG")
+```
+
+## Prediccion del precio de bitcoin
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/predd btc.png")
+```
+
+# Ethereum
+
+## Evolucion precio ethereum
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/graf mov eth.png")
+```
+
+## Analisis Tecnico Medias moviles simples (50 y 200 dias)
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/medias eth.png")
+```
+
+## Analisis Tecnico RSI (Relative Strengh Index)
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/rsi eth.png")
+```
+
+## Analisis Tecnico MACD
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/macd eth.png")
+```
+
+## Analisis Tecnico Momentum
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/momentum eth.png")
+```
+
+## Prediccion precio Ethereum
+
+```{r echo=FALSE, out.width = "750px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/predicc eth.png")
+```
+
+
+# Criptomonedas, ¿valor refugio?
+
+## Retornos diarios Eth
+
+```{r echo=FALSE, out.width = "700px", out.height="450px",fig.align='center'}
+knitr::include_graphics("Capturas/retornos eth.png")
+```
+
+## Retornos diarios SP500
+
+```{r echo=FALSE, out.width = "700px", out.height="450px",fig.align='center'}
+knitr::include_graphics("Capturas/retornos sp.png")
+```
+
+## Drawdown ETH
+
+```{r echo=FALSE, out.width = "700px", out.height="500px",fig.align='center'}
+knitr::include_graphics("Capturas/draw eth.png")
+```
+
+## Drawdown SP500
+
+```{r echo=FALSE, out.width = "600px", out.height="450px",fig.align='center'}
+knitr::include_graphics("Capturas/draw sp.png")
+```
+
+# Correlacion BTC y altcoins
+
+## Betas entre BTC y altcoins
+
+```{r echo=FALSE, out.width = "600px", out.height="450px",fig.align='center'}
+knitr::include_graphics("Capturas/betas.png")
+```
+
